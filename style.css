@@ -1,0 +1,383 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    height     : 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgb(157, 240, 157);
+    box-shadow      : 0 0 29px 0 rgb(134 134 134 / 25%);
+    font-size       : x-large;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.menu-navegacion {
+    display        : flex;
+    justify-content: flex-end;
+    align-items    : center;
+}
+
+ul {
+    display        : flex;
+    list-style-type: none;
+}
+
+li {
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color          : black;
+    line-height    : 2.5;
+}
+
+.nav-link {
+    background-color: whitesmoke;
+    color           : rgb(157, 240, 157);
+    padding         : 0 20px;
+    border-radius   : 80px;
+}
+
+.foto-columna {
+    display        : flex;
+    flex-direction : row;
+    justify-content: center;
+}
+
+
+.info {
+    margin-top    : 10%;
+    margin-bottom : 10%;
+    width         : 100%;
+    max-width     : 500px;
+    display       : flex;
+    flex-direction: column;
+    align-items   : flex-start;
+    text-align    : left;
+}
+
+.foto {
+    margin-top   : 40%;
+    margin-bottom: 10%;
+    width        : 100%;
+    height       : auto;
+}
+
+.hola {
+    font-size  : 30px;
+    margin-top : 0%;
+    margin-left: 20%;
+}
+
+.titulo {
+    color      : rgb(157, 240, 157);
+    margin-top : 0;
+    font-size  : 100px;
+    margin-left: 20%;
+}
+
+.descripcion {
+    font-size  : 30px;
+    margin-top : 0%;
+    margin-left: 20%;
+}
+
+
+.boton {
+    background-color: rgb(157, 240, 157);
+    color           : green;
+    border-radius   : 100px;
+    margin-left     : 20%;
+    padding         : 5px 20px;
+    font-size       : 20px;
+}
+
+.tercera {
+    background-color: gainsboro;
+    flex-direction  : column;
+    display         : flex;
+}
+
+.tercera-parte {
+    display       : flex;
+    flex-direction: column;
+}
+
+.titulo-nosotros {
+    font-size : 50px;
+    text-align: center;
+}
+
+.parrafo-nosotros {
+    text-align   : center;
+    font-size    : 20px;
+    margin-left  : 30%;
+    margin-right : 30%;
+    margin-bottom: 8%;
+}
+
+.abuelo-tarjetas {
+    display        : flex;
+    justify-content: center;
+}
+
+.seis-tarjetas {
+    display        : flex;
+    text-align     : center;
+    justify-content: center;
+    flex-wrap      : wrap;
+    max-width      : 900px;
+}
+
+
+.seccion-arriba {
+    margin          : 10px;
+    background-color: honeydew;
+    border          : 1px solid rgb(185, 176, 176);
+    border-radius   : 8px;
+    height          : 150px;
+    width           : 260px;
+    padding         : 40px;
+}
+
+
+i {
+    font-size: 60px;
+    color    : rgb(19, 107, 19);
+}
+
+.cuarta-parte {
+    background-color: rgb(157, 240, 157);
+    display         : flex;
+}
+
+.comilla {
+    margin-top   : 2%;
+    margin-bottom: 0%;
+    font-size    : 200px;
+    text-align   : center;
+    color        : rgb(29, 94, 29);
+}
+
+.texto-comillas {
+    margin-bottom: 5%;
+    margin-left  : 12%;
+    margin-right : 12%;
+    margin-top   : 0%;
+    text-align   : center;
+    font-size    : 30px;
+    font-style   : oblique;
+    color        : rgb(29, 94, 29);
+}
+
+
+.productos {
+    background-color: #fafafa;
+}
+
+.siete-tarjetas {
+    width          : 100%;
+    display        : flex;
+    flex-wrap      : wrap;
+    max-width: 900px;
+}
+
+.cada-tarjeta {
+    background-color: white;
+    border          : 1px solid rgb(185, 176, 176);
+    border-radius   : 8px;
+    margin          : 10px;
+}
+
+
+.seccion-abajo {
+    width : 250px;
+    height: 250px;
+}
+
+.imagen1 {
+    width : 100%;
+    height: auto;
+}
+
+.parrafo-quinta {
+    text-align: center;
+}
+
+.column {
+    width: 100%;
+}
+
+.contact {
+    display         : flex;
+    background-color: #ffffff;
+    padding         : 80px 60px;
+    border-radius   : 15px;
+    border          : 1px solid #e0e0e0;
+}
+
+.contact-column:first-of-type {
+    width: 50%;
+}
+
+.contactame {
+    margin-top   : 0;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size  : 45px;
+    color      : green;
+    line-height: 1.2;
+}
+
+.section-description {
+    max-width: 400px;
+}
+
+p {
+    line-height: 1.4;
+}
+
+.redes {
+    margin-top: 40px;
+    display   : block;
+}
+
+ul {
+    padding: 0%;
+}
+
+.twitter {
+    margin    : 5px 0;
+    margin-top: 10px;
+}
+
+.sociales {
+    color       : black;
+    font-size   : 25px;
+    margin-right: 10px;
+}
+
+.palabra {
+    display    : flex;
+    align-items: center;
+    padding    : 5px 10px;
+    font-size  : 30px;
+}
+
+
+.form {
+    display   : block;
+    margin-top: 0em;
+}
+
+.input-name-wrapper {
+    display: flex;
+}
+
+.input-name-wrapper .form-control:nth-of-type(1) {
+    margin-right: 10px;
+}
+
+.form-control {
+    margin-bottom: 15px;
+    flex-grow    : 1;
+    position     : relative;
+}
+
+label {
+    margin-bottom: 10px;
+    display      : block;
+    margin-top   : 5px;
+}
+
+input {
+    border          : 0;
+    border-radius   : 20px;
+    background-color: #f6f7fb;
+    border          : 1px solid #f6f7fb;
+    font-size       : var(--text-sm);
+    padding         : 10px 15px;
+    display         : block;
+    width           : 100%;
+    outline         : none;
+    box-shadow      : 0px 0px 0px 0px rgb(0 0 0 / 0%);
+    transition      : 0.2s;
+}
+
+.icon-invalid {
+    color: #f5414f;
+}
+
+.icon-valid {
+    color: #88c459;
+}
+
+.icon-invalid,
+.icon-valid {
+    display  : none;
+    position : absolute;
+    bottom   : 20px;
+    right    : 20px;
+    transform: translateY(50%);
+}
+
+.button {
+    background-color: rgb(157, 240, 157);
+    color           : green;
+    padding         : 15px 40px;
+    border-radius   : 100px;
+    font-weight     : 500;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}
+
+
+
+
+footer {
+    display         : flex;
+    flex-direction  : column;
+    align-items     : center;
+    padding         : 80px 20px 60px;
+    background-color: rgb(157, 240, 157);
+    color           : green;
+}
+
+.footer-menu {
+    margin: 30px 0;
+}
+
+.icono {
+    font-size       : 1.2rem;
+    transition      : 0.1s;
+    background-color: rgb(157, 240, 157);
+    color           : green;
+}
+
+a:hover {
+    background-color: rgb(19, 107, 19);
+    color           : rgb(157, 240, 157);
+}
+
+@media (max-width: 900px) {
+
+    .foto-columna {
+        flex-direction: column;
+        align-items   : center;
+    }
+
+    .foto {
+        margin-top: 10px;
+    }
+}
